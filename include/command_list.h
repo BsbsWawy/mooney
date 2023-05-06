@@ -1,7 +1,7 @@
 #ifndef COMMAND_LIST_H
 #define COMMAND_LIST_H
 
-#include <command.h>
+#include "command.h"
 
 typedef struct command_list {
     int count;
