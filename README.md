@@ -8,4 +8,5 @@ Prerequisites:
 ```commandLine
 choco install mingw
 ```
+3) Install VSCode: https://code.visualstudio.com
 
