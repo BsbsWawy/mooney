@@ -1,4 +1,4 @@
-CC=g++
+CC=gcc
 SRC_DIR=src
 INCLUDE_DIR=include
 BUILD_DIR=build
@@ -20,5 +20,8 @@ all: main.o
 main.o: executor.o
 	$(COMPILE_SRC)/main.c $(OUTPUT_TO)/main.o
 
-executor.o:  
+executor.o:  command_list.o
 	$(COMPILE_SRC)/executor.c $(OUTPUT_TO)/executor.o
+
+command_list.o:
+		$(COMPILE_SRC)/command_list.c $(OUTPUT_TO)/command_list.o
