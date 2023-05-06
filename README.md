@@ -3,10 +3,11 @@ Simple CI system written in C programming language
 
 Prerequisites:
 
-1) Install chocolately: https://chocolatey.org/install
-2) Install gcc:
+1. Install git: https://git-scm.com/downloads
+2. Install chocolately: https://chocolatey.org/install
+3. Install gcc:
 ```commandLine
 choco install mingw
 ```
-3) Install VSCode: https://code.visualstudio.com
+4. Install VSCode: https://code.visualstudio.com
 
