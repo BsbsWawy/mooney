@@ -1,2 +1,7 @@
+#ifndef EXECUTOR_DEF_H
+#define EXECUTOR_DEF_H
+
 #define DEBUG_LOGGING_ENABLED
 #define PERFORMANCE_LOGGING_ENABLED
+
+#endif
