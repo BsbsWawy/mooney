@@ -3,11 +3,13 @@ SRC_DIR=src
 INCLUDE_DIR=include
 BUILD_DIR=build
 CFLAGS=-c -Wall -I$(INCLUDE_DIR)
+COMPILE_SRC=$(CC) $(CFLAGS) $(SRC_DIR)
+OUTPUT_TO=-o $(BUILD_DIR)
 
 all: main.o
 
 main.o: executor.o
-	$(CC) $(CFLAGS) $(SRC_DIR)/main.c -o $(BUILD_DIR)/main.o
+	$(COMPILE_SRC)/main.c $(OUTPUT_TO)/main.o
 
 executor.o:  
-	$(CC) $(CFLAGS) $(SRC_DIR)/executor.c -o $(BUILD_DIR)/executor.o
+	$(COMPILE_SRC)/executor.c $(OUTPUT_TO)/executor.o
