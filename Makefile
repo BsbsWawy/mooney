@@ -6,7 +6,7 @@ CFLAGS=-c -Wall -I$(INCLUDE_DIR)
 
 all: main.o
 
-main.o: 
+main.o: executor.o
 	$(CC) $(CFLAGS) $(SRC_DIR)/main.c -o $(BUILD_DIR)/main.o
 
 executor.o:  

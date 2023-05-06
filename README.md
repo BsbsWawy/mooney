@@ -14,4 +14,7 @@ choco install mingw
 choco install make
 ```
 5. Install VSCode: https://code.visualstudio.com
-
+6. Run make:
+```commandLine
+make all
+```
