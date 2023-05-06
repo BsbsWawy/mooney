@@ -9,5 +9,9 @@ Prerequisites:
 ```commandLine
 choco install mingw
 ```
-4. Install VSCode: https://code.visualstudio.com
+4. Install make:
+```commandLine
+choco install make
+```
+5. Install VSCode: https://code.visualstudio.com
 
